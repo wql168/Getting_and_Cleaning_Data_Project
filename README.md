@@ -4,6 +4,7 @@
 Version 1.0
 
 
+
 ###INTRODUCTION
 ==================================================================
 The requirements for this project are available at: https://class.coursera.org/getdata-010/human_grading/view/courses/973497/assessments/3/submissions
@@ -17,17 +18,21 @@ the data was collected by Anguita et al. in a recent experiment carried out with
 The project requires submission of a R script file, a README.md, a code book file, and a tidy data file uploaded to a repo created for this project at github.com.
 
 
+
 ###LIST OF FILES
 ==================================================================
 For this project:
 
 The repo is named and is located at: 
 
-The following files are uploaded into the courseproject repo and are named accordingly:
+The following files are uploaded into the "Getting_and_Cleaning_Data_Project" repo, located at https://github.com/wql168/Getting_and_Cleaning_Data_Project:
 
 R script file: 		run_analysis.R
+
 Readme file:		README.md
+
 Code book file:		CODEBOOK.md
+
 tidy data file: 	Step5_data_file.txt
 
 

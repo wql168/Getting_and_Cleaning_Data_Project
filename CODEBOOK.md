@@ -1,8 +1,12 @@
 ## Code Book
 
+
+
 ### 1. Introduction
 
-This code book is for the R script file run_analysis.R in the repo named and located at .
+This code book is for the R script file run_analysis.R in the repo named "Getting_and_Cleaning_Data_Project" and located at https://github.com/wql168/Getting_and_Cleaning_Data_Project.
+
+
 
 ### 2. About the data
 
@@ -104,6 +108,7 @@ All other variables have numeric values and are either means (identified with a 
 There is no data missing or inapplicable in this dataset.
 
 
+
 ### 3. Data processing
 
 3.1 RStudio version:
@@ -121,20 +126,32 @@ This R script requires installation of the following packages:
 This R script uses the following functions:
  
 read.table()
+
 colnames()
+
 gsub()
+
 rbind()
+
 cbind()
+
 grep()
+
 library()
+
 merge()
+
 write.table
+
 melt()
+
 dcast()
+
 
 This R script may require to call the install.packages:
 
 install.packages()
+
 
 
 ### 4. R script running:
@@ -143,8 +160,8 @@ To run this R script, download the data file from the link provided in the above
 
 For example, the working directory can be:
 
-# > getwd()
-# [1] "C:/xxxxxx/xxxxxx/Getting and Cleaning Data/Course_Project/UCI HAR Dataset"
+> getwd()
+[1] "C:/xxxxxx/xxxxxx/Getting and Cleaning Data/Course_Project/UCI HAR Dataset"
 
 
 
