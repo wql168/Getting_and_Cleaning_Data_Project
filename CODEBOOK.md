@@ -19,7 +19,7 @@ Further information about the data sets is available in the README.txt as well a
 The purpose of this R script file is to prepare a tidy dataset that can be used for later analysis. 
 
 
-2.1 Variables names
+####2.1 Variables names
 
 There are totally 69 variables included in the resulting dataset of running this R script file against the source data sets:
 
@@ -93,7 +93,7 @@ There are totally 69 variables included in the resulting dataset of running this
 	"fBodyBodyGyroMag_mean"    
 	"fBodyBodyGyroJerkMag_mean"
 
-2.2. Variable format:
+####2.2. Variable format:
 
 Of the variables, the "Activity_Name" variable has values in character strings. The available values are:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
@@ -103,7 +103,7 @@ The "Activity_label_ID" identifies "Activity_Name" listed above. This variables 
 
 All other variables have numeric values and are either means (identified with a mean in the variable names) or a standard deviations (identified by a std in the variable names) of the measurement results.
 
-2.3 Missing or inapplicable data:
+####2.3 Missing or inapplicable data:
 
 There is no data missing or inapplicable in this dataset.
 
@@ -111,17 +111,17 @@ There is no data missing or inapplicable in this dataset.
 
 ### 3. Data processing
 
-3.1 RStudio version:
+####3.1 RStudio version:
 
 This R script file was prepared with RStudio Version 0.98.1091.
 
-3.2 Package requirements:
+####3.2 Package requirements:
 
 This R script requires installation of the following packages: 
 
 	"reshape2"
 
-3.3 R functions:
+####3.3 R functions:
 
 This R script uses the following functions:
  
@@ -160,9 +160,8 @@ This R script may require to call the install.packages:
 
 To run this R script, download the data file from the link provided in the above 1. Introduction, and unzip the contents to a certain directory. In the RStudio, set the content directory ".../UCI HAR Dataset" as the working directory.
 
-For example, the working directory can be:
+For example, the working directory can be shown as below by running a getwd() function in RStudio:
 
-> getwd()
 
 [1] "C:/xxxxxx/xxxxxx/Getting and Cleaning Data/Course_Project/UCI HAR Dataset"
 
