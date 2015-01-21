@@ -23,75 +23,75 @@ The purpose of this R script file is to prepare a tidy dataset that can be used 
 
 There are totally 69 variables included in the resulting dataset of running this R script file against the source data sets:
 
-"Subject_ID"                
-"Activity_label_ID"         
-"Activity_Name"             
-"tBodyAcc_std_X"           
-"tBodyAcc_std_Y"            
-"tBodyAcc_std_Z"            
-"tGravityAcc_std_X"         
-"tGravityAcc_std_Y"        
-"tGravityAcc_std_Z"         
-"tBodyAccJerk_std_X"        
-"tBodyAccJerk_std_Y"        
-"tBodyAccJerk_std_Z"       
-"tBodyGyro_std_X"           
-"tBodyGyro_std_Y"           
-"tBodyGyro_std_Z"           
-"tBodyGyroJerk_std_X"      
-"tBodyGyroJerk_std_Y"       
-"tBodyGyroJerk_std_Z"       
-"tBodyAccMag_std"           
-"tGravityAccMag_std"       
-"tBodyAccJerkMag_std"       
-"tBodyGyroMag_std"          
-"tBodyGyroJerkMag_std"      
-"fBodyAcc_std_X"           
-"fBodyAcc_std_Y"            
-"fBodyAcc_std_Z"            
-"fBodyAccJerk_std_X"        
-"fBodyAccJerk_std_Y"       
-"fBodyAccJerk_std_Z"        
-"fBodyGyro_std_X"           
-"fBodyGyro_std_Y"           
-"fBodyGyro_std_Z"          
-"fBodyAccMag_std"           
-"fBodyBodyAccJerkMag_std"   
-"fBodyBodyGyroMag_std"      
-"fBodyBodyGyroJerkMag_std" 
-"tBodyAcc_mean_X"           
-"tBodyAcc_mean_Y"           
-"tBodyAcc_mean_Z"           
-"tGravityAcc_mean_X"       
-"tGravityAcc_mean_Y"        
-"tGravityAcc_mean_Z"        
-"tBodyAccJerk_mean_X"       
-"tBodyAccJerk_mean_Y"      
-"tBodyAccJerk_mean_Z"      
-"tBodyGyro_mean_X"          
-"tBodyGyro_mean_Y"          
-"tBodyGyro_mean_Z"         
-"tBodyGyroJerk_mean_X"      
-"tBodyGyroJerk_mean_Y"      
-"tBodyGyroJerk_mean_Z"      
-"tBodyAccMag_mean"         
-"tGravityAccMag_mean"       
-"tBodyAccJerkMag_mean"      
-"tBodyGyroMag_mean"         
-"tBodyGyroJerkMag_mean"    
-"fBodyAcc_mean_X"           
-"fBodyAcc_mean_Y"           
-"fBodyAcc_mean_Z"           
-"fBodyAccJerk_mean_X"      
-"fBodyAccJerk_mean_Y"       
-"fBodyAccJerk_mean_Z"       
-"fBodyGyro_mean_X"          
-"fBodyGyro_mean_Y"         
-"fBodyGyro_mean_Z"          
-"fBodyAccMag_mean"          
-"fBodyBodyAccJerkMag_mean"  
-"fBodyBodyGyroMag_mean"    
-"fBodyBodyGyroJerkMag_mean"
+	"Subject_ID"                
+	"Activity_label_ID"         
+	"Activity_Name"             
+	"tBodyAcc_std_X"           
+	"tBodyAcc_std_Y"            
+	"tBodyAcc_std_Z"            
+	"tGravityAcc_std_X"         
+	"tGravityAcc_std_Y"        
+	"tGravityAcc_std_Z"         
+	"tBodyAccJerk_std_X"        
+	"tBodyAccJerk_std_Y"        
+	"tBodyAccJerk_std_Z"       
+	"tBodyGyro_std_X"           
+	"tBodyGyro_std_Y"           
+	"tBodyGyro_std_Z"           
+	"tBodyGyroJerk_std_X"      
+	"tBodyGyroJerk_std_Y"       
+	"tBodyGyroJerk_std_Z"       
+	"tBodyAccMag_std"           
+	"tGravityAccMag_std"       
+	"tBodyAccJerkMag_std"       
+	"tBodyGyroMag_std"          
+	"tBodyGyroJerkMag_std"      
+	"fBodyAcc_std_X"           
+	"fBodyAcc_std_Y"            
+	"fBodyAcc_std_Z"            
+	"fBodyAccJerk_std_X"        
+	"fBodyAccJerk_std_Y"       
+	"fBodyAccJerk_std_Z"        
+	"fBodyGyro_std_X"           
+	"fBodyGyro_std_Y"           
+	"fBodyGyro_std_Z"          
+	"fBodyAccMag_std"           
+	"fBodyBodyAccJerkMag_std"   
+	"fBodyBodyGyroMag_std"      
+	"fBodyBodyGyroJerkMag_std" 
+	"tBodyAcc_mean_X"           
+	"tBodyAcc_mean_Y"           
+	"tBodyAcc_mean_Z"           
+	"tGravityAcc_mean_X"       
+	"tGravityAcc_mean_Y"        
+	"tGravityAcc_mean_Z"        
+	"tBodyAccJerk_mean_X"       
+	"tBodyAccJerk_mean_Y"      
+	"tBodyAccJerk_mean_Z"      
+	"tBodyGyro_mean_X"          
+	"tBodyGyro_mean_Y"          
+	"tBodyGyro_mean_Z"         
+	"tBodyGyroJerk_mean_X"      
+	"tBodyGyroJerk_mean_Y"      
+	"tBodyGyroJerk_mean_Z"      
+	"tBodyAccMag_mean"         
+	"tGravityAccMag_mean"       
+	"tBodyAccJerkMag_mean"      
+	"tBodyGyroMag_mean"         
+	"tBodyGyroJerkMag_mean"    
+	"fBodyAcc_mean_X"           
+	"fBodyAcc_mean_Y"           
+	"fBodyAcc_mean_Z"           
+	"fBodyAccJerk_mean_X"      
+	"fBodyAccJerk_mean_Y"       
+	"fBodyAccJerk_mean_Z"       
+	"fBodyGyro_mean_X"          
+	"fBodyGyro_mean_Y"         
+	"fBodyGyro_mean_Z"          
+	"fBodyAccMag_mean"          
+	"fBodyBodyAccJerkMag_mean"  
+	"fBodyBodyGyroMag_mean"    
+	"fBodyBodyGyroJerkMag_mean"
 
 2.2. Variable format:
 
@@ -119,39 +119,41 @@ This R script file was prepared with RStudio Version 0.98.1091.
 
 This R script requires installation of the following packages: 
 
-"reshape2"
+	"reshape2"
 
 3.3 R functions:
 
 This R script uses the following functions:
  
-read.table()
+	read.table()
 
-colnames()
+	colnames()
 
-gsub()
+	gsub()
 
-rbind()
+	rbind()
 
-cbind()
+	cbind()
 
-grep()
+	grep()
 
-library()
+	library()
 
-merge()
+	merge()
 
-write.table
+	write.table()
 
-melt()
+	melt()
 
-dcast()
+	dcast()
 
 
+	
 This R script may require to call the install.packages:
 
-install.packages()
+	install.packages()
 
+	
 
 
 ### 4. R script running:
@@ -161,6 +163,7 @@ To run this R script, download the data file from the link provided in the above
 For example, the working directory can be:
 
 > getwd()
+
 [1] "C:/xxxxxx/xxxxxx/Getting and Cleaning Data/Course_Project/UCI HAR Dataset"
 
 
