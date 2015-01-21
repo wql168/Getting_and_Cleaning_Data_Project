@@ -100,9 +100,9 @@ There are totally 69 variables included in the resulting dataset of running this
 
 Of the variables, the "Activity_Name" variable has values in character strings. The available values are:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
-The "Subject_ID" variable identifies the 30 subjects that were included in the experiment. It has values ranging from 1 to 30.
+The "Subject_ID" variable identifies the 30 subjects that were included in the experiment. It has integer values ranging from 1 to 30.
 
-The "Activity_label_ID" identifies "Activity_Name" listed above. This variables has values ranging from 1 to 6.
+The "Activity_label_ID" identifies "Activity_Name" listed above. This variables has integer values ranging from 1 to 6.
 
 All other variables have numeric values and are either means (identified with a mean in the variable names) or a standard deviations (identified by a std in the variable names) of the measurement results.
 
