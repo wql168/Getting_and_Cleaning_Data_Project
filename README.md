@@ -51,7 +51,7 @@ The following files are uploaded to the above repo:
 
 
 - The R script file run_analysis.R was created with the RStudio Version 0.98.1091.
-- The tidy data file Step5_data_file.txt has 180 rows included, and 68 rows.
+- The tidy data file Step5_data_file.txt has 180 rows included, and 69 columns.
 - Additional information about the data as well as the R script file can be found in the CODEBOOK.md file also located in this repo.
 
 For more information about this project contact the course staff of this online course.
