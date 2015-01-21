@@ -1,12 +1,14 @@
 ==================================================================
 ##Getting and Cleaning Data Course Project
 
-Version 1.0
+
+
 
 
 
 ###INTRODUCTION
-==================================================================
+
+
 The requirements for this project are available at: https://class.coursera.org/getdata-010/human_grading/view/courses/973497/assessments/3/submissions
 
 The purpose of this project is to demonstrate the ability of a student to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
@@ -19,35 +21,48 @@ The project requires submission of a R script file, a README.md, a code book fil
 
 
 
+
+
+
 ###LIST OF FILES
-==================================================================
+
+
 For this project:
 
-The repo is named and is located at: 
+The repo is named "Getting_and_Cleaning_Data_Project", and is located at https://github.com/wql168/Getting_and_Cleaning_Data_Project.
 
-The following files are uploaded into the "Getting_and_Cleaning_Data_Project" repo, located at https://github.com/wql168/Getting_and_Cleaning_Data_Project:
-
-R script file: 		run_analysis.R
-
-Readme file:		README.md
-
-Code book file:		CODEBOOK.md
-
-tidy data file: 	Step5_data_file.txt
+The following files are uploaded to the above repo:
 
 
+	run_analysis.R			R script file	
 
+	README.md				Readme file
+
+	CODEBOOK.md				Code book file
+
+	Step5_data_file.txt		tidy data file
+
+
+
+	
+	
+	
 ###NOTES 
-==================================================================
+
+
 - The R script file run_analysis.R was created with the RStudio Version 0.98.1091.
-- The tidy data file Step5_data_file.txt has 180 rows included, and infromation about the data is available in the CODEBOOK.md file.
+- The tidy data file Step5_data_file.txt has 180 rows included, and 68 rows.
+- Additional information about the data as well as the R script file can be found in the CODEBOOK.md file also located in this repo.
 
 For more information about this project contact the course staff of this online course.
 
 
 
+
+
+
 ###CITATIONS
-=================================================================
+
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
