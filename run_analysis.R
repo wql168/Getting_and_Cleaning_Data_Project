@@ -5,8 +5,7 @@
 # Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted 
 # Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-
-# The first part of this R script is to create a tidy data set from the Auguita et al. data, with the following 5 steps:
+# This R script is to create a tidy data set from the Auguita et al. data, with the following 5 steps:
 
 
 # Step 1: Merges the training and the test sets to create one data set.
@@ -69,7 +68,7 @@ write.table(dataset3, "./step_4_tidy_data.txt", sep="    ", col.names = TRUE, eo
 # for each activity and each subject.
 
 # As the functions used in this section requires "reshape2" package, it needs to be installed and called into library.
-if (!("reshape2" %in% rownames(installed.packages())) ) {install.packages("reshape2")}
+if (!("reshape2" %in% rownames(installed.packages()))) {install.packages("reshape2")}
 
 library(reshape2)
 
