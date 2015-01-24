@@ -68,9 +68,7 @@ write.table(dataset3, "./step_4_tidy_data.txt", sep="    ", col.names = TRUE, eo
 # for each activity and each subject.
 
 # As the functions used in this section requires "reshape2" package, it needs to be installed and called into library.
-if (!("reshape2" %in% rownames(installed.packages()))) {install.packages("reshape2")}
-
-library(reshape2)
+if("reshape2" %in% rownames(installed.packages()) == FALSE) {install.packages("reshape2")}; library(reshape2)
 
 # Use the melt() function so that each row is a unique id-variable combination. 
 dataset3_melt <- melt(dataset3,id=c("Subject_ID","Activity_label_ID","Activity_Name"))
