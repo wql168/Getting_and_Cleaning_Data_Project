@@ -51,6 +51,10 @@ The following files are uploaded to the above repo:
 
 
 - The R script file run_analysis.R was created with the RStudio Version 0.98.1091.
+- To run the run_analysis.R file, the data should be downloaded from the https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, and then unzipped to a certain folder.
+  For example, the download zip file is extracted to the following folder:
+  "C:\xxxx\Coursera_courses\Getting and Cleaning Data\Project\UCI HAR Dataset"
+  Then the above folder is set as the working directory in RStudio, and unzipped data located in the ./UCI HAR Dataset folder can be read with the run_analysis.R script file.
 - The tidy data file Step5_data_file.txt has 180 rows included, and 69 columns.
 - Additional information about the data as well as the R script file can be found in the CODEBOOK.md file also located in this repo.
 
